@@ -7,13 +7,13 @@ const patientModel = require("./models/patient")
 const port = process.env.PORT || 4000;
 
 const doctors = [
-  { id: 1, name: "dilip joshi", city: "bhopal" },
-  { id: 2, name: "arvind singh", city: "bhopal" },
-  { id: 3, name: "arun sharma", city: "mumbai" },
-  { id: 4, name: "rahul arya", city: "mumbai" },
-  { id: 5, name: "ajay singh", city: "bhopal" },
-  { id: 6, name: "mohan kumar", city: "mumbai" },
-  { id: 7, name: "akshay rawat", city: "bhopal" },
+  { id: 1, name: "Dr Kshama Mangal (PT)", city: "bhopal", qualification: "M.Sc (Advanced Sports Therapy & Rehabilitation Science)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F6YgFxi30kXv1oentAwEo7m%2Ff8a62977ee51c8ab296bb484751bc59f%2Fno_bg_kshama.png&w=1920&q=75" },
+  { id: 2, name: "Dr Ritika Saxena (PT)", city: "bhopal", qualification: "M.Sc (Neuro Rehabitilation)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F5WfYG9JlQObYfuPIVBHWgB%2F0a2322ed704f2932f695abfa19859b5f%2Fno_bg_ritika.png&w=1920&q=75" },
+  { id: 3, name: "Dr Namita Singh (PT)", city: "mumbai", qualification: "MPTh (Musculoskeletal)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F4YLmowX4oqZwNchAIExAs2%2Feef3f24c5fabdce934eaa50444788d9b%2Fno_bg_namita.png&w=1920&q=75" },
+  { id: 4, name: "Dr Radhika Kaple (PT)", city: "mumbai", qualification: "MPTh (Musculoskeletal Sciences)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F3HISMVOTWHyZrjFklmtCne%2Faffa80a20cb88f10c6b8f0fa4a5545b2%2FUntitled_design__14_.png&w=1920&q=75" },
+  { id: 5, name: "Dr Sheetal Lelani (PT)", city: "bhopal", qualification: "MPTh (Neuro-physiotherapy & Psychosomatic disorders)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F6NGb5LGV3dPZ6GEnHErP73%2F5cd0a98262769f50170402aeede3ff99%2FUntitled_design__16_.png&w=1920&q=75" },
+  { id: 6, name: "Dr Manasi Bane (PT)", city: "mumbai", qualification: "MPTh (Neuro Sciences)", image: "https://www.fixhealth.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fa0u75w265gnx%2F3jp2iwbMUd4uK51QDd0eLK%2Fe2caf2899fe1b1d316c145f80c18326a%2FUntitled_design__10_.png&w=1920&q=75" },
+ 
 ]
 
 
